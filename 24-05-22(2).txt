@@ -1,0 +1,68 @@
+   using System;
+    
+
+public class HelloWorld
+
+   {
+    public static void Main(string[] args)
+   
+ {
+        
+
+//Verilmis interger arrayind? verilmis integer ?d?dinin yerl?sdiyi ilk indexi 
+tapib qaytaran metod.?g?r tapmasa -1 qaytarsin.(Metodu isl?tdikd? için? arqument olaraq bir integer array 
+v? bir ?d?d gönd?rilir)
+       
+    
+    int[] numbers=(14,17,86,45,26,17,49,91);
+      
+      
+      Console.WriteLine(result);
+   
+
+ }
+    
+    static int arr (int[] numbers)
+    
+    int num=17;
+    
+    
+{
+        
+     if (numbers[i]==num)
+       
+   
+     {
+            result = i;
+            
+             
+                   break;
+        
+     }
+       
+   
+   {
+          
+        Console.WriteLine(result);
+            
+         return result;
+            
+      
+   }
+        
+     else (result==-1)
+        
+      {
+           
+        Console.WriteLine("num ededi yoxdur"+reqem);
+          
+           return result;
+       
+      }
+   
+    }
+       
+   
+  }
+
+}
