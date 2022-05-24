@@ -1,0 +1,69 @@
+    using System;
+
+
+     
+     public class HelloWorld
+
+ 
+{
+    public static void Main(string[] args)
+    
+
+     {
+        //Verilmis 3 ?d?d?n ?n böyüyünü qaytaran metod
+        
+          
+           Compore (127,457,678);
+    
+      
+     }
+   
+
+         static int Compare (int num1,int num2,int num3)
+  
+
+       {
+       if(num1>num2>num3)
+     
+
+         {
+          Console.WriteLine("num1 en boyukdur"+num1);
+          
+
+                    return num1;
+      
+         
+         }
+      
+
+            else  (num2>num1>num3)
+       
+
+         {
+          Console.writeLine("num2 en boyukdur"+num2);
+       
+
+                     return num2;
+      
+
+         }
+      
+
+            else 
+     
+
+         {
+           Console.WriteLine("num3 en boyukdur"+num3);
+  
+
+                      return num3;
+   
+
+         }
+       
+   
+
+      }
+   
+ 
+}
