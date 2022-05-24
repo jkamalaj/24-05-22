@@ -1,0 +1,53 @@
+  using System;
+
+
+
+      public class HelloWorld
+
+
+  {
+    public static void Main(string[] args)
+    
+
+    {
+        SumofNumbers(47);
+       
+ 
+       Console.WriteLine(sum);
+    }
+   
+  
+      static int SumofNumbers(int num)
+   
+  
+   {
+        int sum=0;
+        
+
+            int lastDigit;
+       
+   
+           while (num!=0)
+       
+ 
+     {
+           
+ 
+         lastDigit=num%10;
+         
+   
+          sum+=lastDigit;
+           
+ 
+       num=(num-lastDigit)/10;
+     
+  
+     }
+       
+  
+        return result;
+   
+   }
+
+
+  }
